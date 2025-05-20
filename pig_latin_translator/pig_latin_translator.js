@@ -1,5 +1,5 @@
 const args = process.argv.slice(2)
-const word = args[0]?.toLowerCase()
+const word = args[0]
 
 if (!word) {
   console.log("Please enter a word to translate.")
