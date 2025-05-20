@@ -1,6 +1,5 @@
 const args = process.argv.slice(2)
-const move = args[0]?.toLowerCase()
-
+const move = args[0]
 const validMoves = ['rock', 'paper', 'scissors']
 
 if (!validMoves.includes(move)) {
