@@ -1,5 +1,5 @@
 const args = process.argv.slice(2)
-const message = args[0]?.toLowerCase()
+const message = args[0]
 const shift = parseInt(args[1])
 
 if (!message || isNaN(shift)) {
